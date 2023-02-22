@@ -1,4 +1,4 @@
-import { createContext, ReactNode, useState } from "react";
+import { createContext, ReactNode, useState, useReducer } from "react";
 
 interface Cycle {
     id: string
@@ -70,7 +70,6 @@ export function CyclesContextProvider({children}: CyclesContextProviderProps) {
         setCycles((state) => [...state, newCycle])
         setActiveCycleId(id)
         setAmountSecondsPassed(0)
-        // reset();
     }
 
     function interruptCurrentCycle () {

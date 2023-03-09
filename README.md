@@ -1,5 +1,5 @@
 <h1>Ignite-Timer</h1>
-<h3> Este é o Ignite Timer, um contador na qual você especifica um nome para a atividade planejada e um tempo de até 60 minutos para realizá-la. </h3>
+<h3> Este é o Ignite Timer, um contador na qual você especifica um nome para a atividade planejada e um tempo de até 60 minutos para realizá-la. Este é um projeto feito em React JS </h3>
 <h3> Você pode interromper a contagem regressiva a qualquer momento e adicionar outra. </h3>
 <h3> Há um histórico que lista as atividades que foram interrompidas, concluídas ou estão em andamento. </h3>
 <h3> Eu fiz este projeto como parte do Curso Ignite ReactJS da Rocketseat. </h3>
